@@ -1,6 +1,5 @@
 all:	setup
-	pip3 install -r requirements.txt
-	python3 build.py
+	python build.py
 
 setup:	clean
 	mkdir public
